@@ -1,0 +1,59 @@
+body{
+  text-transform: capitalize;
+  background-color: #FAFAFA;
+  font-family: 'Poppins', sans-serif;
+}
+
+h5{
+  color: #004A7C;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.btn-dict{
+  background-color: white;
+}
+
+.form-control{
+  border-color: #005691;
+  box-shadow: none !important;
+}
+
+.searchBox{
+  margin-top: 20px;
+}
+
+.word{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.wordOfTheDay{
+  background-color: #E8F1F5;
+  color: #005691;
+  border-radius: 20px;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+
+.wordOfTheDay>p:empty{
+  display: none;
+}
+
+.noContent{
+  background-color: #fafafa !important;
+}
+
+.searchResult{
+  background-color: #E8F1F5;
+  border-radius: 20px;
+  margin-top: 10px;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {  
+  body{
+      margin: 20px;
+  }
+}
