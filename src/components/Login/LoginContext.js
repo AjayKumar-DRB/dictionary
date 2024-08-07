@@ -56,7 +56,7 @@ export const LoginProvider = ({ children }) => {
   };
 
 
-  const serverURL = 'https://goldratecalculator-backend.onrender.com';
+  const serverURL = 'https://dictionary-backend-fmp2.onrender.com';
 
   const handleSubmit = async (e) => {
     e.preventDefault();
